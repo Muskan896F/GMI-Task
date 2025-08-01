@@ -1,0 +1,11 @@
+openai
+Pillow
+requests
+pypdfium2
+pymupdf
+numpy
+scipy
+tiktoken
+pytesseract
+opencv-python
+matplotlib
