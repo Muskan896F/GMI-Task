@@ -1,0 +1,52 @@
+{
+    "columns": [
+        "Date",
+        "Description",
+        "Amount",
+        "Balance"
+    ],
+    "rows": [
+        [
+            "04/11/2021",
+            "B1MAT00 C0NSE1L",
+            "264.00",
+            ""
+        ],
+        [
+            "08/11/2021",
+            "P1CKUP SERV1CES",
+            "108.66",
+            ""
+        ],
+        [
+            "08/11/2021",
+            "ST1CHT1NG CUST0D1AN UBER PAYMENTS",
+            "594.16",
+            ""
+        ],
+        [
+            "15/11/2021",
+            "ST1CHT1NG CUST0D1AN UBER PAYMENTS",
+            "509.26",
+            ""
+        ],
+        [
+            "18/11/2021",
+            "UN1TED PARCEL SERV1CE FRANCE SAS",
+            "84.00",
+            ""
+        ],
+        [
+            "22/11/2021",
+            "ST1CHT1NG CUST0D1AN UBER PAYMENTS",
+            "356.41",
+            ""
+        ],
+        [
+            "29/11/2021",
+            "ST1CHT1NG CUST0D1AN UBER PAYMENTS",
+            "223.06",
+            ""
+        ]
+    ]
+}

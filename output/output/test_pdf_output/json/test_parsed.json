@@ -1,0 +1,157 @@
+{
+    "account_number": "1695 8000 0198 1243 9892",
+    "bank_name": null,
+    "account_holder": null,
+    "statement_period": "2021-05-01 to 2021-05-31",
+    "opening_balance": 25.45,
+    "closing_balance": 60.63,
+    "transactions": [
+        {
+            "date": "2021-05-07",
+            "description": "EG BENNES",
+            "amount": "50.0",
+            "balance": "N0ne",
+            "transaction_type": "credit"
+        },
+        {
+            "date": "2021-05-13",
+            "description": "SANEF Q0nt0 FR",
+            "amount": "N0ne",
+            "balance": "N0ne",
+            "transaction_type": null,
+            "amount_valid": false
+        },
+        {
+            "date": "2021-05-17",
+            "description": "T0TAL SHPK BEKA C0UL0MM1ERS Prishtine FR",
+            "amount": "-41.98",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-17",
+            "description": "QZ",
+            "amount": "-13.54",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-19",
+            "description": "810 CHL MAL1 LAVAGES P0ZAREVAC P0ZAREVAC RS",
+            "amount": "N0ne",
+            "balance": "N0ne",
+            "transaction_type": null,
+            "amount_valid": false
+        },
+        {
+            "date": "2021-05-21",
+            "description": "SENL1S",
+            "amount": "245.0",
+            "balance": "N0ne",
+            "transaction_type": "credit"
+        },
+        {
+            "date": "2021-05-24",
+            "description": "B01SSY LE CHA FR",
+            "amount": "-10.0",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-26",
+            "description": "eur1 gezegen",
+            "amount": "-119.99",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-26",
+            "description": "C0UL0MM1ER FR",
+            "amount": "-60.1",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-27",
+            "description": "AD BPN C0UL0MM1ERS FR",
+            "amount": "-119.99",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-28",
+            "description": "SANEF SENL1S FR",
+            "amount": "-43.58",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-28",
+            "description": "T0TAL C0UL0MM1ERS FR",
+            "amount": "-3.5",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-28",
+            "description": "LECLERC FERTE LA FERTE S FR",
+            "amount": "-215.69",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-28",
+            "description": "TEL M MEUD0N LA F0R FR",
+            "amount": "-30.72",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-28",
+            "description": "LECLERC D1STR C0UL0MM1ER FR",
+            "amount": "-181.45",
+            "balance": "N0ne",
+            "transaction_type": "debit"
+        },
+        {
+            "date": "2021-05-29",
+            "description": "0PH C0UL0MM1ERS C0UL0MM1ERS FR",
+            "amount": "N0ne",
+            "balance": "N0ne",
+            "transaction_type": null,
+            "amount_valid": false
+        },
+        {
+            "date": "2021-05-29",
+            "description": "MARKET M0UR0UX M0UR0UX FR",
+            "amount": "N0ne",
+            "balance": "N0ne",
+            "transaction_type": null,
+            "amount_valid": false
+        },
+        {
+            "date": "2021-05-29",
+            "description": "Acti0n 4119 C0u10mmiers FR",
+            "amount": "N0ne",
+            "balance": "N0ne",
+            "transaction_type": null,
+            "amount_valid": false
+        },
+        {
+            "date": "2021-05-29",
+            "description": "CAFE DE L'ECU LA FERTE GAUC FR",
+            "amount": "N0ne",
+            "balance": "N0ne",
+            "transaction_type": null,
+            "amount_valid": false
+        },
+        {
+            "date": "2021-05-31",
+            "description": "1NTERSP0RT C0UL0MM1ERS FR",
+            "amount": "N0ne",
+            "balance": "N0ne",
+            "transaction_type": null,
+            "amount_valid": false
+        }
+    ]
+}

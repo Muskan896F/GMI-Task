@@ -1,0 +1,48 @@
+{
+    "bank": "SOCIETE GENERALE",
+    "account_number": "01057 30003 00020066035 97",
+    "statement_period": {
+        "start_date": "01/03/2022",
+        "end_date": "31/03/2022"
+    },
+    "transactions": [
+        {
+            "date": "30/03/2022",
+            "description": "CARTE X8155 29/03 FREE MOBILE",
+            "amount": 29.99,
+            "type": "debit"
+        },
+        {
+            "date": "30/03/2022",
+            "description": "CARTE X8155 29/03 FREE MOBILE",
+            "amount": 29.99,
+            "type": "debit"
+        },
+        {
+            "date": "30/03/2022",
+            "description": "CARTE X8155 29/03 FNAC STE GENNEVI",
+            "amount": 327.99,
+            "type": "debit"
+        },
+        {
+            "date": "31/03/2022",
+            "description": "CARTE X8155 RETRAIT DAB SG 30/03 15H05 MORSANG SUR ORGE 00915459",
+            "amount": 310.0,
+            "type": "debit"
+        }
+    ],
+    "totals": {
+        "debits": 952.73,
+        "credits": 10.28
+    },
+    "balance": {
+        "date": "31/03/2022",
+        "amount": 1714.96
+    },
+    "card_details": {
+        "card_number": "497388XXXXXX8155",
+        "cumulative_spending": 4832.19,
+        "spending_period_start": "01/09/2021",
+        "spending_period_end": "31/03/2022"
+    }
+}
