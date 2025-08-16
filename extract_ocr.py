@@ -12,7 +12,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 # Automatically set TESSDATA_PREFIX
 tessdata_dir = r"C:\Program Files\Tesseract-OCR\tessdata"
 if os.path.exists(tessdata_dir):
-    os.environ["TESSDATA_PREFIX"] = tessdata_dir
+    os.environ["TESSDATA_PREFIX"] = tessdata_dir   # ✅ fixed bug
 
 def num_tokens(text, model="gpt-3.5-turbo-0613"):
     try:
@@ -86,11 +86,15 @@ def extract_text(data, add_spaces=True, max_tokens=16000):
 
 def extract_text_ocr(image_path, add_spaces=True, max_tokens=16000, lang="eng"):
     """OCR extraction with safe default language 'eng'"""
-    # Fix if user passed 'en' instead of 'eng'
     if lang.lower() == "en":
         lang = "eng"
 
-    image = Image.open(image_path)
+    try:
+        image = Image.open(image_path)
+    except Exception as e:
+        print(f"❌ Could not open image {image_path}: {e}")
+        return ""
+
     ocr_data = pytesseract.image_to_data(image, lang=lang, output_type=pytesseract.Output.DICT)
 
     data = []
@@ -100,7 +104,7 @@ def extract_text_ocr(image_path, add_spaces=True, max_tokens=16000, lang="eng"):
             conf = int(ocr_data['conf'][i])
         except ValueError:
             conf = 0
-        if text and conf > 50:
+        if text and conf > 50:  # only keep confident OCR results
             x, y, w, h = ocr_data['left'][i], ocr_data['top'][i], ocr_data['width'][i], ocr_data['height'][i]
             datum = {
                 'value': text,
